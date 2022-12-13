@@ -1,0 +1,23 @@
+name: Release Check List
+description: Check list for public releases
+title: "[Release Check] "
+body:
+  - type: checkboxes
+    id: ck0
+    attributes:
+      label: MiSTer tested
+      description: All MRA files tested in a clean folder in MiSTer
+      options:
+        - required: true
+  - type: checkboxes
+    id: ck1
+    attributes:
+      label: Pocket tested
+      description: All JSON files tested in a clean SD card in the Pocket
+      options:
+        - required: true
+  - type: checkboxes
+    id: ck2
+    attributes:
+      label: MiST tested
+      description: All MRA files tested in a clean SD card in MiST

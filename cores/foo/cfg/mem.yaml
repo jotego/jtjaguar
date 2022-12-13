@@ -1,0 +1,12 @@
+sdram:
+  banks:
+    -
+      buses:
+        - name: "main"
+          data_width: 8
+          addr_width: 16
+    -
+      buses:
+        - name: "gfx"
+          data_width: 16
+          addr_width: 16
